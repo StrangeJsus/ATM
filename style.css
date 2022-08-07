@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+/* Scrollbar */
+ 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(26, 118, 204, 0.697);
+    border-radius: 10px;  
+}
+
+/* Start */
+
+.container {
+    width: 100%;
+    height: 98vh;
+    background-image: url(cajero.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    background-position: center;
+    margin-bottom: 2%;
+}
+
+.boton {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    background-color: rgba(212, 212, 212, 0%);
+    border: none;
+    font-size: 4rem;
+    color: rgb(41, 152, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+#start:hover {
+    background-color: rgba(59, 230, 99, 0.2);
+    border: none;
+    font-size: 5rem;
+    color: rgb(41, 152, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    padding: 40px 35px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(41, 152, 26);
+}
+
+/* Withdraw */
+
+.input {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number {
+    height: 50px;
+    font-size: 2rem;
+    padding: 25px 10px;
+    border-radius: 5px;
+}
+
+#withdraw {
+    padding: 20px 20px;
+    font-size: 2rem;
+    color: rgb(0, 129, 49);
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: color 0.2s, background-color 0.5s;
+}
+
+#withdraw:hover {
+    background-color: rgb(214, 214, 214);
+    padding: 20px 20px;
+    font-size: 2rem;
+    color: rgb(189, 13, 0);
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Divider */
+
+.divider {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(103, 103, 103);
+}
+
+/* Result */
+
+#resultado {
+    width: 100%;
+    height: 97.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#resultado p {
+    margin: 10px;
+    border: 1px solid rgb(56, 245, 132);
+    padding: 30px 30px;
+    border-radius: 5px;
+    background-color: rgba(45, 185, 26, 0.591);
+    color: rgb(228, 228, 228);
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
